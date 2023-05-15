@@ -234,6 +234,7 @@ article.flexbox {
 
 article.flex-basis div.gride section.img img {
     max-width: 100%;
+    max-height: auto;
     border: 3px solid #00748D;
 }
 
