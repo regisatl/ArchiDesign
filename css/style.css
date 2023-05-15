@@ -14,14 +14,17 @@ style  css pour le header de la page home
 
 header.header {
     background-color: #00748D;
-    display: flex;
-    justify-content: space-around;
-    color: #fff;
-    font-size: 20px;
     padding: 1rem;
     background-image: url("../instructions/images/path.png");
     background-repeat: repeat-x;
     background-position: bottom;
+}
+
+div.head {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
     font-family: "Fjalla One";
 }
 
@@ -69,16 +72,13 @@ div.container {
 article.wrap {
     background-image: url("../instructions/images/bg-header.jpg");
     background-repeat: no-repeat;
-    height: 600px;
-    position: relative;
+    padding: 15rem 0;
+    text-align: center;
 }
 
 div.wraptext {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     font-family: "Fjalla One";
+    display: inline-block;
 }
 
 div.wraptext h1 {
@@ -143,7 +143,8 @@ div.grid {
 div.grid section.cardImg img {
     border: 2px solid #00748D;
 }
-section.card{
+
+section.card {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -167,13 +168,9 @@ section.card div.link a:hover {
 }
 
 article.foot {
-    display: flex;
-    justify-content: space-around;
     background-color: #00748D;
     padding: 1rem;
     align-items: center;
-    color: #fff;
-    font-family: "Fjalla One";
     background-image: url("../instructions/images/path.png");
     background-repeat: repeat-x;
     background-position: bottom;
@@ -411,12 +408,12 @@ Media queries tablette pour actualité
         flex-direction: column;
     }
 
-    div.display{
+    div.display {
         flex-direction: column;
         flex-basis: 100%;
     }
 
-    div.display img{
+    div.display img {
         max-width: 100%;
         max-height: auto;
     }
@@ -490,7 +487,8 @@ Media queries mobile pour réalisations
         gap: 1rem;
         justify-items: center;
     }
-    section.aside{
+
+    section.aside {
         text-align: center;
     }
 }
@@ -503,13 +501,13 @@ Media queries mobile pour actualité
         flex-direction: column;
     }
 
-    
-    div.display{
+
+    div.display {
         flex-direction: column;
         flex-basis: 100%;
     }
 
-    div.display img{
+    div.display img {
         max-width: 100%;
         max-height: auto;
     }
@@ -518,11 +516,11 @@ Media queries mobile pour actualité
         flex-direction: column;
     }
 
-    .scrollbar hr{
+    .scrollbar hr {
         width: 80%;
     }
 
-    section.aside{
+    section.aside {
         text-align: center;
     }
 }
@@ -588,7 +586,7 @@ Media queries petit-mobile pour home
         order: 1;
         margin-block: 1rem;
     }
-    
+
 }
 
 
@@ -613,11 +611,12 @@ Media queries petit-mobile pour réalisations
         gap: 1rem;
         justify-items: center;
     }
+
     article.foot {
         flex-direction: column;
     }
 
-    section.aside{
+    section.aside {
         text-align: center;
     }
 
@@ -642,13 +641,13 @@ Media queries petit-mobile pour actualité
         flex-direction: column;
     }
 
-    
-    div.display{
+
+    div.display {
         flex-direction: column;
         flex-basis: 100%;
     }
 
-    div.display img{
+    div.display img {
         max-width: 100%;
         max-height: auto;
     }
@@ -657,11 +656,11 @@ Media queries petit-mobile pour actualité
         flex-direction: column;
     }
 
-    .scrollbar hr{
+    .scrollbar hr {
         width: 80%;
     }
 
-    section.aside{
+    section.aside {
         text-align: center;
     }
 }
