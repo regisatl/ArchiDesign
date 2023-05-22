@@ -284,8 +284,10 @@ section.aside {
 section.aside div.list ul li {
     list-style-image: url("../instructions/images/circle.png");
     margin-block: 1rem;
-    text-align: center;
+    text-align: left;
 }
+
+
 
 /* *******************************************
 style  css pour la page actualité
