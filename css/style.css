@@ -74,6 +74,7 @@ div.container {
 article.wrap {
     background-image: url("../instructions/images/bg-header.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 15rem 0;
     text-align: center;
 }
@@ -171,10 +172,6 @@ section.card div.link a:hover {
 
 div.list ul {
     padding: 0;
-}
-
-section.aside {
-    text-align: center;
 }
 
 article.foot {
@@ -294,7 +291,7 @@ section.aside {
 section.aside div.list ul li {
     list-style-image: url("../instructions/images/circle.png");
     margin-block: 1rem;
-    text-align: left;
+    text-align: center;
 }
 
 
