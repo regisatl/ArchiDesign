@@ -352,14 +352,11 @@ Media queries tablette pour home
 ********************************************** */
 @media screen and (min-width:781px) and (max-width:1100px) {
 
-<<<<<<< HEAD
     div.wrapper {
         max-width: 780px;
         margin-inline: auto;
     }
 
-=======
->>>>>>> 34a0e4f74b22dbf371873eaef330d2b92f0fc22f
     div.head {
         flex-direction: column;
         align-items: center;
@@ -370,14 +367,6 @@ Media queries tablette pour home
         font-size: 18px;
     }
 
-<<<<<<< HEAD
-=======
-    .home {
-        max-width: 700px;
-        margin-inline: auto;
-    }
-
->>>>>>> 34a0e4f74b22dbf371873eaef330d2b92f0fc22f
     div.wraptext h1 {
         font-size: 20px;
     }
@@ -461,21 +450,12 @@ Media queries tablette pour actualité
 Media queries mobile pour home
 ********************************************** */
 @media screen and (min-width:631px) and (max-width:780px) {
-<<<<<<< HEAD
 
     div.wrapper {
         max-width: 680px;
         margin-inline: auto;
     }
 
-=======
-    .home {
-        max-width: 500px;
-        margin-inline: auto;
-    }
-
-
->>>>>>> 34a0e4f74b22dbf371873eaef330d2b92f0fc22f
     div.head {
         flex-direction: column;
         align-items: center;
@@ -565,14 +545,11 @@ Media queries petit-mobile pour home
 ********************************************** */
 @media screen and (max-width:630px) {
 
-<<<<<<< HEAD
     div.wrapper {
         max-width: 320px;
         margin-inline: auto;
     }
 
-=======
->>>>>>> 34a0e4f74b22dbf371873eaef330d2b92f0fc22f
     div.head {
         flex-direction: column;
         align-items: center;
@@ -595,14 +572,6 @@ Media queries petit-mobile pour home
         font-size: 18px;
     }
 
-<<<<<<< HEAD
-=======
-    .home {
-        max-width: 350px;
-        margin-inline: auto;
-    }
-
->>>>>>> 34a0e4f74b22dbf371873eaef330d2b92f0fc22f
     div.wraptext h1 {
         font-size: 18px;
     }
